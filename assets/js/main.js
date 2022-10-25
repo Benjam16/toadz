@@ -1400,7 +1400,7 @@ async function connectToMetamask(){
       walletQualification.style.display = "none"
 
       if(amountAllowed > 0){
-        pricePaid.innerText = 0
+        pricePaid.innerText = 150
       } 
 
 
@@ -1479,8 +1479,8 @@ plus.addEventListener('click', function(){
     myincrementvalue.innerText = currentNum
 
     if(currentNum <= amountAllowed){
-      currentPrice = 0;
-      pricePaid.innerText = 0
+      currentPrice = 150;
+      pricePaid.innerText = 150
     } else {
       currentPrice = (currentNum - amountAllowed) * mintPrice
       pricePaid.innerText = Math.round(currentPrice * 10) / 10
