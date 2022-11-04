@@ -232,7 +232,17 @@ nav{
     overflow: scroll;
 
 }
-
+.galleryModal_content{
+    background: black;
+    /* height: fit-content; */
+    width: 622px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--light-blue);
+    padding: 40px;
+    position: absolute;
+    top: 100px;
 }
 .galleryModal_title{
     color:white;
