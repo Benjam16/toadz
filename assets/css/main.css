@@ -132,7 +132,19 @@ nav{
 
 }
 /* modal */
-
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@keyframes type {
+    0%   {opacity:0;}
+    99%  {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes fade {
+    0%,100% { opacity: 0.3 }
+    50% { opacity: 1 }
   }
 .highlightBtn{
     background: white;
