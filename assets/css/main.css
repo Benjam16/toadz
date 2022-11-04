@@ -1,5 +1,11 @@
 @font-face {
-
+    font-family: "Roboto";
+    src: url("../font/RobotoMono-Medium.ttf") format("truetype");
+}
+/* @font-face {
+    font-family: "noto";
+    src: url("./assets/font/NotoMathcastlesRemix-Regular.woff2"), format("woff2");
+} */
 :root{
     --dark-black:#2a2726;
     --faded-blue:#708dbc;
