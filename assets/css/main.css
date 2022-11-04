@@ -6,7 +6,7 @@
     font-family: "noto";
     src: url("./assets/font/NotoMathcastlesRemix-Regular.woff2"), format("woff2");
 } */
-
+:root{
     --dark-black:#2a2726;
     --faded-blue:#708dbc;
     --off-white:#f8fefe;
