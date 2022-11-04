@@ -131,7 +131,7 @@ nav{
     opacity: 0.5;
 
 }
-/* modal */
+
 @keyframes blink-animation {
     to {
         visibility: hidden;
